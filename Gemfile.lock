@@ -78,7 +78,7 @@ GEM
     alchemy-devise (6.2.0)
       alchemy_cms (>= 6.0.0, < 8)
       devise (>= 4.7.1, < 5)
-    alchemy_cms (6.0.5)
+    alchemy_cms (6.0.6)
       actionmailer (>= 6.0, < 7.1)
       actionpack (>= 6.0, < 7.1)
       actionview (>= 6.0, < 7.1)
@@ -345,7 +345,7 @@ PLATFORMS
 
 DEPENDENCIES
   alchemy-devise (~> 6.2)
-  alchemy_cms (= 6.0.5)
+  alchemy_cms (= 6.0.6)
   bootsnap
   capybara
   debug

@@ -70,5 +70,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-gem "alchemy_cms", "= 6.0.5"
+gem "alchemy_cms", "= 6.0.6"
 gem "alchemy-devise", "~> 6.2"
