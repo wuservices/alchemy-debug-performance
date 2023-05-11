@@ -18,10 +18,10 @@ gem "puma", "~> 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
+# Hotwire"s SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
+# Hotwire"s modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
@@ -70,5 +70,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-gem "alchemy_cms", "= 6.0.5"
+gem "alchemy_cms", git: "https://github.com/tvdeyen/alchemy_cms", branch: "6.0-do-not-eager-load-elements-on-page"
 gem "alchemy-devise", "~> 6.2"

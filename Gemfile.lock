@@ -1,3 +1,39 @@
+GIT
+  remote: https://github.com/tvdeyen/alchemy_cms
+  revision: f39ac5147dbf9c4466c1e31d788b39935356e2a8
+  branch: 6.0-do-not-eager-load-elements-on-page
+  specs:
+    alchemy_cms (6.0.13)
+      actionmailer (>= 6.0, < 7.1)
+      actionpack (>= 6.0, < 7.1)
+      actionview (>= 6.0, < 7.1)
+      active_model_serializers (~> 0.10.0)
+      activejob (>= 6.0, < 7.1)
+      activemodel (>= 6.0, < 7.1)
+      activerecord (>= 6.0, < 7.1)
+      activesupport (>= 6.0, < 7.1)
+      acts_as_list (>= 0.3, < 2)
+      awesome_nested_set (~> 3.1)
+      cancancan (>= 2.1, < 4.0)
+      coffee-rails (>= 4.0, < 6.0)
+      dragonfly (~> 1.4)
+      dragonfly_svg (~> 0.0.4)
+      gutentag (~> 2.2, >= 2.2.1)
+      handlebars_assets (~> 0.23)
+      jquery-rails (~> 4.0, >= 4.0.4)
+      jquery-ui-rails (~> 6.0)
+      kaminari (~> 1.1)
+      originator (~> 3.1)
+      railties (>= 6.0, < 7.1)
+      ransack (>= 1.8, < 4.0)
+      request_store (~> 1.2)
+      responders (>= 2.0, < 4.0)
+      sassc-rails (~> 2.1)
+      simple_form (>= 4.0, < 6)
+      sprockets (>= 3.0, < 5)
+      turbolinks (>= 2.5)
+      webpacker (>= 4.0, < 6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,37 +114,6 @@ GEM
     alchemy-devise (6.2.0)
       alchemy_cms (>= 6.0.0, < 8)
       devise (>= 4.7.1, < 5)
-    alchemy_cms (6.0.5)
-      actionmailer (>= 6.0, < 7.1)
-      actionpack (>= 6.0, < 7.1)
-      actionview (>= 6.0, < 7.1)
-      active_model_serializers (~> 0.10.0)
-      activejob (>= 6.0, < 7.1)
-      activemodel (>= 6.0, < 7.1)
-      activerecord (>= 6.0, < 7.1)
-      activesupport (>= 6.0, < 7.1)
-      acts_as_list (>= 0.3, < 2)
-      awesome_nested_set (~> 3.1)
-      cancancan (>= 2.1, < 4.0)
-      coffee-rails (>= 4.0, < 6.0)
-      dragonfly (~> 1.4)
-      dragonfly_svg (~> 0.0.4)
-      gutentag (~> 2.2, >= 2.2.1)
-      handlebars_assets (~> 0.23)
-      jquery-rails (~> 4.0, >= 4.0.4)
-      jquery-ui-rails (~> 6.0)
-      kaminari (~> 1.1)
-      non-stupid-digest-assets (~> 1.0.8)
-      originator (~> 3.1)
-      railties (>= 6.0, < 7.1)
-      ransack (>= 1.8, < 4.0)
-      request_store (~> 1.2)
-      responders (>= 2.0, < 4.0)
-      sassc-rails (~> 2.1)
-      simple_form (>= 4.0, < 6)
-      sprockets (>= 3.0, < 5)
-      turbolinks (>= 2.5)
-      webpacker (>= 4.0, < 6)
     awesome_nested_set (3.5.0)
       activerecord (>= 4.0.0, < 7.1)
     bcrypt (3.1.18)
@@ -195,9 +200,9 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
-    loofah (2.21.1)
+    loofah (2.21.2)
       crass (~> 1.0.2)
-      nokogiri (>= 1.5.9)
+      nokogiri (>= 1.12.0)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
@@ -220,10 +225,8 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.14.3-arm64-darwin)
+    nokogiri (1.14.4-arm64-darwin)
       racc (~> 1.4)
-    non-stupid-digest-assets (1.0.9)
-      sprockets (>= 2.0)
     originator (3.1)
       actionpack (>= 4.0)
       activerecord (>= 4.0)
@@ -345,7 +348,7 @@ PLATFORMS
 
 DEPENDENCIES
   alchemy-devise (~> 6.2)
-  alchemy_cms (= 6.0.5)
+  alchemy_cms!
   bootsnap
   capybara
   debug
